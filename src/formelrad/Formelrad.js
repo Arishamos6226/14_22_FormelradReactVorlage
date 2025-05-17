@@ -17,8 +17,6 @@ export default function Formelrad() {
                     <h2>Formelrad</h2>
                     <img src={formelrad} width="200" alt="Formelrad"/>
                 </header>
-                <h2>Formelrad</h2>
-                <img src={formelrad} width="200" alt="Formelrad"/>
                 <form>
                     <InputField color={"black"} value={values.u} label="Spannung" handleChange={e => {setValues(values => ({...values, u: e.target.value}))}} />
                     <InputField color={"black"} value={values.i} label="Stromstaerke" handleChange={e => {setValues(values => ({...values, i: e.target.value}))}} />
